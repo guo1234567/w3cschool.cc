@@ -1,84 +1,84 @@
 
-��Ƭ�ǿ�   ���µ�ơ��    ��һֻ�Ϲ�
+整片星空   加温的啤酒    和一只老狗
 
-������ֻ�����ף�С���ŷֶԴ���
+成年人只看利弊，小孩才分对错。
 
-ϲ���ͻ�������������ǿ��ơ�
+喜欢就会放肆，但爱就是克制。
 
-����һ����ӵ��������磬���ҵ�����ֻ��һ���㡣
+总有一个人拥有你的世界，而我的世界只差一个你。
 
-�������綼û�й۹�������������ۡ�
+你连世界都没有观过，哪来的世界观。
 
-��Զ�������õ����鼴������
+永远相信美好的事情即将发生
 
-С�ף�Ϊ���ն�����
+小米，为发烧而生。
 
-������Ϸ��ȫ���ݼ���
+人生如戏，全靠演技。
  
 
 
-�з�ڰ��ҵĿ�
+螃蟹在剥我的壳
 
-�ʼǱ���д��
+笔记本在写我
 
-����������ڷ�Ҷ��,ѩ����
+漫天的我落在枫叶上,雪花上
 
-����������
-
-
+而你在想我
 
 
 
 
-���������һ����������ʹ��ľ�
-�����𵹹ҽ���������Ѫ��������
-���İ��ҵĿ���֪���߹�δ����ͷ
-�����ܽ�����̽�����ٳ��������ʺ�
-��˵��Ը�����ҿ�������
-������ֻ��500cc����������Ӿ
-����ľ�ͷ����һ�䲻��ǣ��
-�һ����ҵ�500cc����������Ӿ
-��˵��������У���˵�㾧Ө��͸
-��˵������һ���ߵ����屻���˺�Ū
-�㲻����ζ����Ƕ���A��
-�������ζ���ֻ������
-����ô���� ����ô����
-����������Ӱ㸶��һ�����㻶��
-����ô���� ����ô����
-��ϣ����ĺ����¸������ܹ�����
+
+
+喝完了最后一壶穿过心脏痛快的酒
+像蝙蝠倒挂金身滚滚热血奔流依旧
+放心吧我的咳嗽知道肋骨未上心头
+不接受侥幸试探破绽百出的虚情问候
+你说你愿意陪我看潮起潮落
+我现在只在500cc的天堂里游泳
+多年的尽头竟是一句不想牵手
+我还在我的500cc的天堂里游泳
+你说你藏在蕊中，你说你晶莹剔透
+我说你总有一天踢到铁板被男人糊弄
+你不是绮梦顶多是哆啦A梦
+你多年的梦都还只是做梦
+我这么真心 你这么花心
+我像个老来子般付出一切讨你欢心
+我这么真心 你这么花心
+我希望你的狐臭下个男人能够忍受
 
 
 
-����ǿ 17:01:41
+郭文强 17:01:41
 <html>
 <head>
-<title>���ó���demo</title>
+<title>设置城市demo</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gbk" />
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=79d13dd2c1076b1ad827484228ee4dea&v=1.1&services=true" ></script>
 </head>
 <body>
 <input type="text" id="cityName" />
-<input type="button" onclick="setCity()" value="����" />
+<input type="button" onclick="setCity()" value="设置" />
 <div id="container" style="width:500px;height:400px"></div>
 <script>
 var map = new BMap.Map("container");
 map.addControl(new BMap.NavigationControl());
 map.centerAndZoom(new BMap.Point(116.404, 39.915), 11);
  
-var search = new BMap.LocalSearch("�й�", {
+var search = new BMap.LocalSearch("中国", {
   onSearchComplete: function(result){
     if (search.getStatus() == BMAP_STATUS_SUCCESS){
       var res = result.getPoi(0);
       var point = res.point;
       map.centerAndZoom(point, 11);
     }
-  },renderOptions: {  //����������ã�
+  },renderOptions: {  //结果呈现设置，
     map: map,  
     autoViewport: true,  
     selectFirstResult: true 
-  } ,onInfoHtmlSet:function(poi,html){//��ע�������ݴ�����Ļص�������������������Լ򵥵ĸ�һ�·��ص�html�����ˡ�
+  } ,onInfoHtmlSet:function(poi,html){//标注气泡内容创建后的回调函数，有了这个，可以简单的改一下返回的html内容了。
      alert(html.innerHTML);
-  }//��һ�ο��Բ�Ҫ��ֻ������Ϊѧϰ������Ӧ�ö�����ġ�
+  }//这一段可以不要，只不过是为学习更深层次应用而加入的。
 });
  
 function setCity(){
@@ -93,11 +93,11 @@ function setCity(){
 
 public class DiGui {
 	public static void main(String[] args) {
-		File file=new File("F:\\Ӣ������");
+		File file=new File("F:\\英雄联盟");
 		digui(file);
 	}
 	public static void digui(File parentfile) {
-		File[] files = parentfile.listFiles(); //��ȡ��Ŀ¼�����е��ļ����ļ���
+		File[] files = parentfile.listFiles(); //获取该目录下所有的文件和文件夹
 		for (File file : files) {
 			if(file.isFile()){
 				System.out.println(file.getName());
@@ -130,7 +130,7 @@ public class DiGui {
 
 
 
-
+rthtyjyukuykuilifgbgfjfghj
 
 
 
