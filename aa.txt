@@ -12,7 +12,7 @@
   MD   (Marketing Director)市场总监
   OM   (Operations Manager)运作经理
   PM   (Production Manager)生产经理
-  (Product Manager)产品经理
+  (Product Manager)产品经理.
 
 
 
